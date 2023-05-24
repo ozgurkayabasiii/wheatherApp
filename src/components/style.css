@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item>div {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color:darkgray;
+    background-position: center;
+}
+
+.item>div>p {
+    text-transform: capitalize;
+}
+.item>div>h3{
+    color:blue;
+}
+body{
+    background-image:url('../img/2.jpg') ;
+}
+.h1{
+    color: white;
+}
